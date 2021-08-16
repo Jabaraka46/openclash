@@ -1,5 +1,16 @@
 proxies:
-- name: "Gaming"
+- name: "Gaming1"
+  type: ss
+  server: insert host/ip
+  port: insert port
+  cipher: insert chipher
+  password: insert password
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: domain.com
+- name: "Gaming2"
   type: trojan
   server: insert host/ip
   port: insert port
