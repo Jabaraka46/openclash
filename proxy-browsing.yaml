@@ -13,9 +13,9 @@ proxies:
 proxies:
 - name: "trojan"
   type: trojan
-  server: 116.251.214.5
-  port: 443
-  password: 67b3d910-fc62-11eb-b896-1239d0255272
+  server: insert host/ip
+  port: insert port
+  password: insert password
   udp: true
-  sni: spotify.com
+  sni: domain.com
   skip-cert-verify: true
