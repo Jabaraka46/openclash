@@ -1,0 +1,80 @@
+payload:
+  - DOMAIN-SUFFIX,
+  # Created By Master Wifi Network Solution
+  # Date 16 agustus 2021
+  - DOMAIN-KEYWORD,pubgmobile
+  - DOMAIN-SUFFIX,pubgmobile.com.	
+  - DOMAIN-SUFFIX,pubgmobile-com.mail.protection.outlook.com    
+  - DOMAIN-SUFFIX,ns-1983.awsdns-55.co.uk    
+  - DOMAIN-SUFFIX,ns-351.awsdns-43.com    
+  - DOMAIN-SUFFIX,ns-889.awsdns-47.net
+  - DOMAIN-SUFFIX,ns-1296.awsdns-34.org    
+  - DOMAIN-SUFFIX,ns-889.awsdns-47.net
+  - DOMAIN-SUFFIX,awsdns-hostmaster.amazon.com
+  - DOMAIN-SUFFIX,spf.protection.outlook.com
+  - DOMAIN-SUFFIX,spf.mandrillapp.com
+  # IP PUBG MOBILE
+  # PUBG UDP
+  - IP-CIDR,143.204.98.93/32
+  - IP-CIDR,143.204.98.39/32
+  - IP-CIDR,143.204.98.32/32
+  - IP-CIDR,143.204.98.119/32
+  - IP-CIDR,142.250.4.0/24
+  - IP-CIDR,74.125.200.0/24
+  - IP-CIDR,74.125.24.0/24
+  - IP-CIDR,172.253.118.0/24
+  - IP-CIDR,142.251.10.0/24
+  - IP-CIDR,74.125.68.0/24
+  - IP-CIDR,172.217.194.0/24
+  - IP-CIDR,74.125.130.0/24
+  # PUBG TCP
+  - IP-CIDR,172.217.194.0/24
+  - IP-CIDR,52.84.45.0/24
+  - IP-CIDR,122.248.195.0/24
+  - IP-CIDR,52.76.207.0/24
+  - IP-CIDR,52.204.109.0/24
+  # Port PUBG on Bypass (include mikrotik)
+  # Port PUBG udp
+  # 53259
+  # 56332
+  # 47142
+  # 57400
+  # 47160
+  # 60512
+  # 44143
+  # 57479
+  # 52368
+  # 53419
+  # 40111
+  # 39107
+  # 43273
+  # 59660
+  # 45333
+  # 38183
+  # 53577
+  # 56663
+  # 33117
+  # 36190
+  # 60780
+  # 43504
+  # 58889
+  # 56848
+  # 39560
+  # 43692
+  # 41683
+  # 45797
+  # 52982
+  # 45826
+  # 47914
+  # 59287
+  # 33716
+  # Port PUBG tcp
+  # 26880
+  # 53946
+  # 56963
+  # 36113
+  # 55655
+  # 53048
+  # 47469
+  # 55808
+  # 51440

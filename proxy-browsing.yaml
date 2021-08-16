@@ -1,0 +1,21 @@
+proxies:
+- name: "Streaming"
+  type: ss
+  server: id01-ss.sshocean.net
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: MGU3M
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: spotify.com
+proxies:
+- name: "trojan"
+  type: trojan
+  server: 116.251.214.5
+  port: 443
+  password: 67b3d910-fc62-11eb-b896-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true

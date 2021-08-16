@@ -1,0 +1,9 @@
+proxies:
+- name: "TJ-Gaming"
+  type: trojan
+  server: sg4-trojan.bonds.id
+  port: 443
+  password: cf7e9040-fbb4-11eb-b82e-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
