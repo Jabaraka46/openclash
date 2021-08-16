@@ -1,12 +1,20 @@
 proxies:
-- name: "Streaming"
+- name: "Sosmed1"
   type: ss
-  server: id01-ss.sshocean.net
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: MGU3M
+  server: insert host/ip
+  port: insert port
+  cipher: insert chipher
+  password: insert password
   udp: true
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: spotify.com
+    host: domain.com
+- name: "Sosmed2"
+  type: trojan
+  server: insert host/ip
+  port: insert port
+  password: insert password
+  udp: true
+  sni: domain.com
+  skip-cert-verify: true
