@@ -1,15 +1,15 @@
 proxies:
 - name: "Streaming"
   type: ss
-  server: id01-ss.sshocean.net
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: MGU3M
+  server: insert host/ip
+  port: insert port
+  cipher: insert cipher
+  password: insert password
   udp: true
   plugin: obfs
   plugin-opts:
     mode: tls
-    host: spotify.com
+    host: domain.com
 proxies:
 - name: "trojan"
   type: trojan
